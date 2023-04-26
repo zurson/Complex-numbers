@@ -1,5 +1,4 @@
-#ifndef COMPLEX_COMPLEX_H
-#define COMPLEX_COMPLEX_H
+
 #include <iostream>
 #include <math.h>
 
@@ -166,6 +165,3 @@ inline Complex operator/(const double val, const Complex y)
 
     return x / y;
 }
-
-
-#endif
